@@ -63,4 +63,4 @@ You do have to know and manually select which locations should be included in yo
 
 ---
 
-<sup>1</sup>Thank you to Jen Sanford, Dick V. Freeland, Steve Hampton, and Brodie Cass Talbot!
+<sup>1</sup>Thank you to Jen Sanford, Dick F. Vreeland, Steve Hampton, and Brodie Cass Talbot!
