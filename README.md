@@ -37,23 +37,15 @@ Voilà! You probably want to give the map a descriptive name so you can easily f
 
 ### Adding eBird hotspots
 
-Slightly more involved but even cooler, you can also save eBird hotspots to your map:
+With just a few more steps, you can add the eBird hotspots from your circle to your map too:
 
 1. Download the list of hotspots from eBird. (This is done using the [eBird v1.1 APIs](https://confluence.cornell.edu/display/CLOISAPI/eBird-1.1-HotspotGeoReference), but you don't really need to know that.) Enter this URL in your web browser - you just need to replace the latitude and longitude values with those of the center of your circle first: `https://ebird.org/ws1.1/ref/hotspot/geo?lng=-97.7593878&lat=35.4823241&dist=8&fmt=csv`
 
 1. Open the downloaded .csv file and add a header row with column names. You can also remove extraneous columns - you only need the latitude, longitude, and location name.
 
-1. If you don't have the Google Earth Pro desktop app, [download and install it](https://www.google.com/earth/versions/#earth-pro). (It's free.)
+1. Go to the Google Map you created for your 5MR. Click "Add layer," then "Import," and upload the .csv file generated in the previous step.
 
-1. In Google Earth Pro, navigate to File -> Import..., and choose the .csv file generated in the previous step.
-
-1. Click "Finish." When asked if you want to use a style template, click "Yes," then "OK."
-
-1. Where it says "Set name field," choose the column from your file that contains the location name. (This step makes it so the points in your final map will have names.) Hit "OK," then "Save."
-
-1. Under "Places" in the left pane of Google Earth Pro, find the name of the file you just uploaded (probably "ebird_api_hotspots_something.csv"). Right-click on it, and click "Save Place As...". Then just hit "Save" to download the .kml file.
-
-1. Go to the Google Map you created for your 5MR. Click "Add layer," then "Import," and upload the .kml file generated in the previous step. Your points should now be displayed on the map. You're done!
+1. There are a couple prompts to map the columns in your file to fields needed by Google Maps. Follow the instructions and hit "Finish." The hotspots should all show up on your map! That's it!
 
 ## Tracking Your Sightings
 
