@@ -39,7 +39,7 @@ Voilà! You probably want to give the map a descriptive name so you can easily f
 
 Slightly more involved but even cooler, you can also save eBird hotspots to your map:
 
-1. Download the list of hotspots from eBird. (This is done using the [eBird v1.1 APIs](https://confluence.cornell.edu/display/CLOISAPI/eBird-1.1-HotspotGeoReference), but you don't really need to know that.) Enter this URL in your web browser - you just need to replace the latitude and longitude values with those of the center of your circle first: `https://ebird.org/ws1.1/ref/hotspot/geo?lng=--97.7593878&lat=35.4823241&dist=8&fmt=csv`
+1. Download the list of hotspots from eBird. (This is done using the [eBird v1.1 APIs](https://confluence.cornell.edu/display/CLOISAPI/eBird-1.1-HotspotGeoReference), but you don't really need to know that.) Enter this URL in your web browser - you just need to replace the latitude and longitude values with those of the center of your circle first: `https://ebird.org/ws1.1/ref/hotspot/geo?lng=-97.7593878&lat=35.4823241&dist=8&fmt=csv`
 
 1. Open the downloaded .csv file and add a header row with column names. You can also remove extraneous columns - you only need the latitude, longitude, and location name.
 
