@@ -27,7 +27,7 @@ Some find it handy to have a map of their 5MR saved in Google Maps, where they c
 
 1. Find the precise latitude and longitude for the center of your circle. (Typically, your home.) You can do this for example by searching for the address in [Google Maps](http://maps.google.com/). When it displays the location, you'll see the latitude and longitude included in the URL in your browser.
 
-1. Go to [this site](http://kml4earth.appspot.com/circlegen.html), fill in the proper values, and click "Generate Circle." This will cause a .kml file to be downloaded to your computer. Note the name and location of that file.
+1. Go to [this site](http://kml4earth.appspot.com/circlegen.html). Fill in the proper values, make sure the "Auto refresh" box is NOT checked, and click "Generate Circle." This will cause a .kml file to be downloaded to your computer. Note the name and location of that file.
 
 1. In [Google Maps](http://maps.google.com/), navigate to "Your places," then "Maps," then click "Create Map."
 
